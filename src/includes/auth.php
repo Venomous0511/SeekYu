@@ -9,7 +9,7 @@ require_once __DIR__ . '../../../config/db.php';
 function require_login()
 {
     if (!isset($_SESSION['user_id'])) {
-        header("Location: /auth/login.php");
+        header("Location: /SeekYu/src/auth/login.php");
         exit();
     }
 }
