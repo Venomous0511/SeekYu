@@ -1,0 +1,18 @@
+{
+    "name": "johnrenier/seek-yu",
+    "description": "SeekYu for Security Guard Management System",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Venomous0511",
+            "email": "johnrenierbaldeviso2@gmail.com"
+        }
+    ]
+}
